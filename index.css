@@ -2,19 +2,57 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 footer {
   display: flex;
   justify-content: center;
   border: 2px solid black;
+  gap: 50px;
   background-color: green;
 
   margin-top: 40%;
 }
 
+.box_1{
+  text-align: center;
+}
+
 h1 {
   color: white;
   text-transform: capitalize;
-  width: 50px;
+  font-size: 2rem;
 }
+
+p{
+  color: rgb(72, 67, 67);
+  font-size: 0.90rem;
+}
+
+.box_2{
+  text-align: center;
+}
+
+.heading{
+  font-size: 2rem;
+  color: white;
+  
+}
+
+li a{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgb(72, 67, 67);
+}
+
+h2{
+  color: rgb(72, 67, 67);
+  font-size: 1.2rem;
+  
+}
+
+.box-3{
+  margin-top: 50px auto;
+}
+

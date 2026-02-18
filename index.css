@@ -11,11 +11,10 @@ footer {
   border: 2px solid black;
   gap: 50px;
   background-color: green;
-
-  margin-top: 40%;
+  margin-top: 15px;
 }
 
-.box_1{
+.box_1 {
   text-align: center;
 }
 
@@ -25,39 +24,41 @@ h1 {
   font-size: 2rem;
 }
 
-p{
+p {
   color: rgb(72, 67, 67);
-  font-size: 0.90rem;
+  font-size: 0.9rem;
 }
 
-.box_2{
+.box_2 {
   text-align: center;
 }
 
-.heading{
+.heading {
   font-size: 2rem;
   color: white;
-  
 }
 
-li a{
-  text-decoration: none;
-  text-transform: capitalize;
-  color: rgb(72, 67, 67);
-}
-
-h2{
-  color: rgb(72, 67, 67);
-  font-size: 1.2rem;
-  
-}
-
-
-.box-3{
-  margin-top: 50px auto;
-} 
-
-li a{
+li{
   list-style: none;
 }
 
+li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgb(54, 175, 82);
+  list-style: none;
+  font-weight: 900;
+}
+
+h2 {
+  color: rgb(72, 67, 67);
+  font-size: 1.2rem;
+}
+
+.box-3 {
+  margin-top: 50px auto;
+}
+
+.links {
+  margin-top: 5px;
+}

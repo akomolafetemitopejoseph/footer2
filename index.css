@@ -67,3 +67,17 @@ img{
   width: 100%;
   height: fit-content;
 }
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}

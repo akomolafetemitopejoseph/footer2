@@ -38,7 +38,7 @@ p {
   color: white;
 }
 
-li{
+li {
   list-style: none;
 }
 
@@ -63,12 +63,12 @@ h2 {
   margin-top: 5px;
 }
 
-img{
+img {
   width: 100%;
   height: fit-content;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   margin: 10px;
@@ -76,8 +76,24 @@ nav{
   text-transform: capitalize;
 }
 
-ul{
+ul {
   display: flex;
   justify-content: space-between;
   gap: 10px;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: green;
+}
+
+.logo, h3 {
+  font-weight: 900;
+  font-size: medium;
+  font-size: 1.5rem;
+}
+
+span{
+  font-size: 1rem;
+  color: rgb(93, 73, 61);
 }
